@@ -2,11 +2,15 @@
 
 Bootstrap a developer-friendly NextJS app configured with:
 
-- [Typescript](https://www.typescriptlang.org/)
-- Linting with [ESLint](https://eslint.org/)
-- Formatting with [Prettier](https://prettier.io/)
-- Linting, typechecking and formatting on by default using [`husky`](https://github.com/typicode/husky) for commit hooks
-- Testing with [Jest](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+- with-typescript-eslint-jest
+  -  [Typescript](https://www.typescriptlang.org/)
+  - Linting with [ESLint](https://eslint.org/)
+  - Formatting with [Prettier](https://prettier.io/)
+  - Linting, typechecking and formatting on by default using [`husky`](https://github.com/typicode/husky) for commit hooks
+  - Testing with [Jest](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+- with-loading
+  - Using `next/router` to identify different router events
+  - Uses [nprogress](https://github.com/rstacruz/nprogress) as the loading indicator.
 
 ## Deploy your own
 
