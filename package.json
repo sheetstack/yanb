@@ -11,7 +11,8 @@
     "format": "prettier --write **/*.{js,ts,tsx}",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test-all": "yarn lint && yarn type-check && yarn test",
+    "analyze": "cross-env ANALYZE=true yarn build"
   },
   "husky": {
     "hooks": {
@@ -26,6 +27,7 @@
     ]
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^9.4.4",
     "@types/nprogress": "^0.2.0",
     "next": "latest",
     "nprogress": "^0.2.0",

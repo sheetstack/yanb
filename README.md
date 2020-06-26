@@ -11,6 +11,8 @@ Bootstrap a developer-friendly NextJS app configured with:
 - with-loading
   - Using `next/router` to identify different router events
   - Uses [nprogress](https://github.com/rstacruz/nprogress) as the loading indicator.
+- analyze-bundles
+  - Analyze the output bundles using [@next/bundle-analyzer](https://github.com/vercel/next.js/tree/master/packages/next-bundle-analyzer)
 
 ## Deploy your own
 
