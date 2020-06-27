@@ -38,6 +38,12 @@
       {
         "allow": ["warn", "error"]
       }
+    ],
+    "@typescript-eslint/camelcase": [
+      2,
+      {
+        "properties": "never"
+      }
     ]
   }
 }

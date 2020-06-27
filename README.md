@@ -13,6 +13,8 @@ Bootstrap a developer-friendly NextJS app configured with:
   - Uses [nprogress](https://github.com/rstacruz/nprogress) as the loading indicator.
 - analyze-bundles
   - Analyze the output bundles using [@next/bundle-analyzer](https://github.com/vercel/next.js/tree/master/packages/next-bundle-analyzer)
+- with-google-analytics
+  - A custom [\_document](https://nextjs.org/docs/advanced-features/custom-document) is used to inject [tracking snippet](https://developers.google.com/analytics/devguides/collection/gtagjs/) and track [pageviews](https://developers.google.com/analytics/devguides/collection/gtagjs/pages) and [event](https://developers.google.com/analytics/devguides/collection/gtagjs/events).
 
 ## Deploy your own
 
