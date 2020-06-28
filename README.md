@@ -15,6 +15,10 @@ Bootstrap a developer-friendly NextJS app configured with:
   - Analyze the output bundles using [@next/bundle-analyzer](https://github.com/vercel/next.js/tree/master/packages/next-bundle-analyzer)
 - with-google-analytics
   - A custom [\_document](https://nextjs.org/docs/advanced-features/custom-document) is used to inject [tracking snippet](https://developers.google.com/analytics/devguides/collection/gtagjs/) and track [pageviews](https://developers.google.com/analytics/devguides/collection/gtagjs/pages) and [event](https://developers.google.com/analytics/devguides/collection/gtagjs/events).
+- with-next-seo
+  - Integrate [next-seo](https://github.com/garmeeh/next-seo), a plugin to help manage your SEO in Next.js.
+  - Use [next-seo.config.js](https://github.com/sheetstack/nextjs-boilerplate/blob/master/next-seo.config.js) as default SEO config
+  - Use [pages/jsonld.tsx](https://github.com/sheetstack/nextjs-boilerplate/blob/master/pages/jsonld.tsx) for Google Search structured data
 
 ## Deploy your own
 
